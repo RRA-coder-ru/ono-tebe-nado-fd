@@ -139,8 +139,7 @@
   text-transform: uppercase;
   margin: 30px 0px 0px 20px; /* для попадания в макет*/
   line-height: 1.2;
-  position: relative; 
-  
+  position: relative;
 }
 
 .card__text {
@@ -244,7 +243,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
-  align-items:flex-start; ;
+  align-items:flex-start;
 }
 .footer-address {
   font-weight: 400;
