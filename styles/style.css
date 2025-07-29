@@ -2,9 +2,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 50px;
+  padding: 93px 50px;
   width: 1100px;
-  height: 293px;
 }
 
 .header_logo {
@@ -71,7 +70,7 @@
 .cover_title {
   padding: 165px 20px 0px 50px;
   width: 1100px;
-  height: 385px;
+  line-height: 385px;
   position: relative;
 }
 
@@ -83,24 +82,23 @@
   color: #fff;
   line-height: 115%;
   letter-spacing: 0.3em;
+  padding: 0px 0px 20px 0px;
 }
 
 .aligned-text_left {
   text-align: left;
 }
 
-.aligned-text_center {
-  padding: 20px 0px 0px 0px;
+.aligned-text_center {  
   text-align: center;
 }
 
 .aligned-text_right {
-  padding: 20px 0px 0px 0px;
   text-align: right;
 }
 
 .cover_description {
-  padding: 270px 50px 50px 50px;
+  padding: 85px 50px 50px 50px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -131,8 +129,9 @@
 }
 
 .card {
+  text-decoration: none;
   width: 334px;
-  height: 596px;
+  min-height: 596px; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -141,12 +140,12 @@
   background-position: center;
   color: white;
   position: relative;
-  min-height: 500px;
   box-sizing: border-box;
 
 }
 
 .card__title {
+  text-decoration: underline ;
   background-color: transparent;
   font-size: 22px;
   font-weight: 700;
@@ -157,7 +156,6 @@
 }
 
 .card__text {
-  text-decoration: none;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -209,14 +207,15 @@
 }
 
 .about {
-  margin: 120px 24px;
+  margin: 155px 20px;
   display: grid;
   grid-template-columns: 334px 1fr;
-  grid-template-rows: 334px 1fr 1fr;
+  grid-template-rows: 240px auto auto;
+  gap: 15px 35px;
 }
 
 .about__logo {
-  margin: 35px auto;
+  margin: 0px auto;
   grid-row-start: 1;
   grid-row-end: end;
 }
@@ -237,7 +236,7 @@
 }
 
 .about__title {
-  margin: auto 25px;
+  margin: auto 0px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -247,14 +246,10 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  margin: -50px 25px 20px;
 }
 
 .footer {
-  margin: 165px 50px;
-}
-
-.footer__menu {
+  margin: 165px 50px 82px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
